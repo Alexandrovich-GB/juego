@@ -1,0 +1,28 @@
+﻿  Enemy.cpp
+  Game.cpp
+  main.cpp
+C:\Jueguito\Juego sos\spaceinvaders\Player.hpp(20,38): error C2065: 'Enemy': identificador no declarado
+C:\Jueguito\Juego sos\spaceinvaders\Player.hpp(20,31): error C2923: 'std::vector': 'Enemy' no es un argumento de tipo plantilla válido para el parámetro '_Ty'
+C:\Jueguito\Juego sos\spaceinvaders\Player.hpp(20,31): error C2976: "std::vector": no hay suficientes argumentos de plantilla
+C:\Jueguito\Juego sos\spaceinvaders\Game.cpp(68,10): error C2664: 'void Player::checkCollisions(std::vector &)': el argumento 1 no puede convertirse de 'std::vector<Enemy,std::allocator<Enemy>>' a 'std::vector &'
+C:\Jueguito\Juego sos\spaceinvaders\Player.hpp(20,38): error C2065: 'Enemy': identificador no declarado
+C:\Jueguito\Juego sos\spaceinvaders\Player.hpp(20,31): error C2923: 'std::vector': 'Enemy' no es un argumento de tipo plantilla válido para el parámetro '_Ty'
+C:\Jueguito\Juego sos\spaceinvaders\Player.hpp(20,31): error C2976: "std::vector": no hay suficientes argumentos de plantilla
+  Personaje.cpp
+  Player.cpp
+C:\Jueguito\Juego sos\spaceinvaders\Player.hpp(20,38): error C2065: 'Enemy': identificador no declarado
+C:\Jueguito\Juego sos\spaceinvaders\Player.hpp(20,31): error C2923: 'std::vector': 'Enemy' no es un argumento de tipo plantilla válido para el parámetro '_Ty'
+C:\Jueguito\Juego sos\spaceinvaders\Player.hpp(20,31): error C2976: "std::vector": no hay suficientes argumentos de plantilla
+C:\Jueguito\Juego sos\spaceinvaders\Player.cpp(6,35): warning C4244: 'argumento': conversión de 'float' a 'unsigned short'; posible pérdida de datos
+C:\Jueguito\Juego sos\spaceinvaders\Player.cpp(55,24): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Jueguito\Juego sos\spaceinvaders\Player.cpp(62,14): error C2511: 'void Player::checkCollisions(std::vector<Enemy,std::allocator<Enemy>> &)': la función miembro sobrecargada no se ha encontrado en 'Player'
+C:\Jueguito\Juego sos\spaceinvaders\Player.cpp(63,25): error C2597: referencia no válida a miembro no static 'Player::bullets'
+C:\Jueguito\Juego sos\spaceinvaders\Player.cpp(63,25): error C3535: no se puede deducir el tipo de 'auto &&' a partir de 'unknown'
+C:\Jueguito\Juego sos\spaceinvaders\Player.cpp(63,25): error C2440: 'inicializando': no se puede realizar la conversión de 'unknown' a 'int &&'
+C:\Jueguito\Juego sos\spaceinvaders\Player.cpp(63,25): error C2672: 'begin': no se encontró una función sobrecargada que coincida
+C:\Jueguito\Juego sos\spaceinvaders\Player.cpp(63,25): error C2672: 'end': no se encontró una función sobrecargada que coincida
+C:\Jueguito\Juego sos\spaceinvaders\Player.cpp(63,25): error C3536: '<begin>$L0': no se puede usar antes de inicializarse
+C:\Jueguito\Juego sos\spaceinvaders\Player.cpp(63,25): error C3536: '<end>$L0': no se puede usar antes de inicializarse
+  Generando código...
+C:\Jueguito\Juego sos\spaceinvaders\Player.cpp(63,32): error C2100: no se puede desreferenciar un operando de tipo 'int'
+C:\Jueguito\Juego sos\spaceinvaders\Player.cpp(67,17): error C2597: referencia no válida a miembro no static 'Player::score'
